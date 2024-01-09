@@ -88,5 +88,4 @@ plt.suptitle('URBANIZATION AND CLIMATE CHANGE', fontsize=60, weight="bold")
 student_info_text = 'Name: Nikhil Soni\nStudent ID: 22045846'
 plt.figtext(0.02, 0.02, student_info_text, size=18, weight="bold", ha="left")
 
-# Saving the figure as PNG with 300 dpi
-plt.savefig('22045846.png', dpi=300)
+plt.show()
